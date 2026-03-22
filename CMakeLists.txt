@@ -16,3 +16,24 @@ add_executable(challenge2
 add_executable(challenge3
     set1/challenge3_single_byte_xor/main.c
 )
+
+add_executable(challenge4
+    set1/challenge4_single_character_xor/main.c
+)
+
+add_executable(challenge5
+    set1/challenge5_repeating_key_xor/main.c
+)
+
+add_executable(challenge6
+    set1/challenge6_Break_repeating_key_xor/main.c
+    set1/common/utils.c
+)
+
+add_executable(challenge9
+    set2/challenge9_Implement_PKCS7_padding/main.c
+)
+
+add_executable(challenge10
+    set2/challenge10_Implement_CBC_mode/main.c
+)
