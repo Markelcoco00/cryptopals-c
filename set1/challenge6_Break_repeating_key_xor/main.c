@@ -91,7 +91,7 @@ int main() {
     char texto_base64[MAX_DATOS]; // Buffer para guardar el texto del archivo
     unsigned char datos_cifrados[MAX_DATOS]; // Buffer para guardar los bytes ya decodificados
     // Leemos el archivo
-    if (leer_archivo_base64("set1/challenge6_/text5.txt", texto_base64, MAX_DATOS) < 0) {
+    if (leer_archivo_base64("set1/challenge6_Break_repeating_key_xor/text5.txt", texto_base64, MAX_DATOS) < 0) {
         printf("Error: no se pudo leer el archivo.\n");
         return 1;
     }

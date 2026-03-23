@@ -34,6 +34,6 @@ add_executable(challenge9
     set2/challenge9_Implement_PKCS7_padding/main.c
 )
 
-add_executable(challenge10
-    set2/challenge10_Implement_CBC_mode/main.c
+add_executable(challenge15
+    set2/challenge15_PKCS7_padding_validation/main.c
 )
